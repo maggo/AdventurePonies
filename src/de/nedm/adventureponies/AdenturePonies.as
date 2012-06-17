@@ -1,6 +1,7 @@
 package de.nedm.adventureponies
 {
 	import de.nedm.adventureponies.entities.PinkiePie;
+	import de.nedm.adventureponies.worlds.ApplejackStage;
 	import de.nedm.adventureponies.worlds.NextLevelState;
 	import de.nedm.adventureponies.worlds.PinkiePieStage;
 	import de.nedm.adventureponies.worlds.TitleState;
@@ -16,7 +17,7 @@ package de.nedm.adventureponies
 	{
 		public function AdenturePonies()
 		{
-			super(860/4, 480/4, PinkiePieStage, 4, 30, 30, true);
+			super(860/4, 480/4, ApplejackStage, 4, 30, 30, true);
 			trace(FlxG.width);
 			FlxG.debug = true;
 			//FlxG.visualDebug = true;

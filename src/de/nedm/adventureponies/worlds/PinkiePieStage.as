@@ -91,7 +91,7 @@ package de.nedm.adventureponies.worlds
 			});
 			
 			if(player.x >= FlxG.width){
-				FlxG.switchState(new ApplejackStage());
+				FlxG.switchState(new NextLevelState());
 			}
 			
 		}
